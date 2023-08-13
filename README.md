@@ -1,4 +1,3 @@
-# Nowcoder-Community
 Nowcoder Community: Full Stack Forum System
 
 1.Designed an authentication and authorization service which comprises sign up based on email activation, login with random verification code and display functions and pages based on user identity.
@@ -7,4 +6,5 @@ Nowcoder Community: Full Stack Forum System
 
 3.Improved query efficiency for frequently accessed data such as user profile, post likes and user follows by Redis, and boosted 5x query throughput of trending posts through Caffeine cache.
 
-4.Utilized Kafka to put events into asynchrono
+4.Utilized Kafka to put events into asynchronous queue after users are liked, followed and commented and publish them to users through system notifications.
+
